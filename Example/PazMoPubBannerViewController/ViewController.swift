@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import PazMoPubBannerViewController
 
-class ViewController: UIViewController {
+class ViewController: PazMoPubBannerViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        print(UpdateNotification.BannerViewActionWillPresent.name)
     }
 
     override func didReceiveMemoryWarning() {

@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		187903AD2E6432F024AC40AC /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PazMoPubBannerViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PazMoPubBannerViewController_Example/Pods-PazMoPubBannerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1FBE1528D5C16C4DD9C759FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1FBE1528D5C16C4DD9C759FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2C2F695C9E69FD2E6275DB93 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PazMoPubBannerViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PazMoPubBannerViewController_Example/Pods-PazMoPubBannerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C6F7B418F1CCDCC4C223F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C6F7B418F1CCDCC4C223F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		56B51C2710948D6EEB85525C /* Pods_PazMoPubBannerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PazMoPubBannerViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F9DE3DEDD23E69B2846DE /* Pods_PazMoPubBannerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PazMoPubBannerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PazMoPubBannerViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PazMoPubBannerViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* PazMoPubBannerViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PazMoPubBannerViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BCD1E9712E02FB940490C1A5 /* PazMoPubBannerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PazMoPubBannerViewController.podspec; path = ../PazMoPubBannerViewController.podspec; sourceTree = "<group>"; };
+		BCD1E9712E02FB940490C1A5 /* PazMoPubBannerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PazMoPubBannerViewController.podspec; path = ../PazMoPubBannerViewController.podspec; sourceTree = "<group>"; };
 		E6B47E5A54B871228B32AE47 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PazMoPubBannerViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PazMoPubBannerViewController_Tests/Pods-PazMoPubBannerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F60FA9AFBA85E7F33D704A89 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PazMoPubBannerViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PazMoPubBannerViewController_Tests/Pods-PazMoPubBannerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S85M726D6S;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S85M726D6S;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = 187903AD2E6432F024AC40AC /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S85M726D6S;
 				INFOPLIST_FILE = PazMoPubBannerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = 2C2F695C9E69FD2E6275DB93 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S85M726D6S;
 				INFOPLIST_FILE = PazMoPubBannerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6B47E5A54B871228B32AE47 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = S85M726D6S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F60FA9AFBA85E7F33D704A89 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = S85M726D6S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

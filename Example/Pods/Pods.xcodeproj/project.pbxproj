@@ -10,13 +10,13 @@
 		022E3D52FC7D3AE9F69137EB2A8F0C0D /* Pods-PazMoPubBannerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAFA0BB74DB8F3564E46A384E9DCD55 /* Pods-PazMoPubBannerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A9ACE7F387ABBAD42F623C12D7B441B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2B7463E06D34DA5ACB490F019372FBD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3A59C2AAC194D02629A5B5C57BE03174 /* PazMoPubBannerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A59C2AAC194D02629A5B5C57BE03174 /* PazMoPubBannerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2E5F49B7F5ADA1E3F09523BC2774C8 /* PazMoPubBannerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F4C5038735E5A9D06AF397BAACFA4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		461F49BC787FACE250C66DF55029BF8E /* Pods-PazMoPubBannerViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6BAC9A63D9D2B146EBDF6E0281FF3 /* Pods-PazMoPubBannerViewController_Tests-dummy.m */; };
+		51FC8F489CD76976D7E7A571A7CFEEB8 /* PazMoPubBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6238149D19699E9AEF1C8DE2867403 /* PazMoPubBannerViewController.swift */; };
+		5CF0B0579960CE5554185CEEE25E33DE /* PazMoPubBannerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E4F79BB0B72E7650096D468C5D9C2 /* PazMoPubBannerViewController-dummy.m */; };
 		709349D949BBBAB5DE70157A39815ABD /* Pods-PazMoPubBannerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03868748BBC31D6AD75A1F667EF06D76 /* Pods-PazMoPubBannerViewController_Example-dummy.m */; };
-		A57FA75748DB7F3DECB07876BC75FA94 /* PazMoPubBannerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */; };
 		B2E1096959BD80F445557E5081D91921 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39602EED3FCF1ABC8A016B4B63EA1759 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFED28A004ADDF3341DD362B69BD1DA3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		03868748BBC31D6AD75A1F667EF06D76 /* Pods-PazMoPubBannerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PazMoPubBannerViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		04170AF3E808970269BD3331F8589360 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B8AFA6AE22A7CF92CC084E65FBEA32 /* Pods-PazMoPubBannerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PazMoPubBannerViewController_Example.modulemap"; sourceTree = "<group>"; };
 		2558E88F54E748EFE02D0635837E7320 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CE6BAC9A63D9D2B146EBDF6E0281FF3 /* Pods-PazMoPubBannerViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PazMoPubBannerViewController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -40,26 +39,27 @@
 		39602EED3FCF1ABC8A016B4B63EA1759 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PazMoPubBannerViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3E9DDE5784B7307F21CF78FEACF00DE0 /* Pods-PazMoPubBannerViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		40E31060D11025FE94271A71B4FE2563 /* Pods-PazMoPubBannerViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		499B9DA5B305BD2BA5DBA6E7D006B689 /* PazMoPubBannerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-prefix.pch"; sourceTree = "<group>"; };
-		5529A83FDE1A391CC9BCAFDF618E0E5B /* PazMoPubBannerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PazMoPubBannerViewController.modulemap; sourceTree = "<group>"; };
+		56AFAECAC4FD99D939FC56F30947BEBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7E4F79BB0B72E7650096D468C5D9C2 /* PazMoPubBannerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PazMoPubBannerViewController-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A6238149D19699E9AEF1C8DE2867403 /* PazMoPubBannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PazMoPubBannerViewController.swift; path = PazMoPubBannerViewController/Classes/PazMoPubBannerViewController.swift; sourceTree = "<group>"; };
 		79CB1F30BC3F51917C792278767A5E51 /* Pods_PazMoPubBannerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PazMoPubBannerViewController_Example.framework; path = "Pods-PazMoPubBannerViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B5C9A0245A099D0FF489763CC238B6 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89035385485B64C5F6B8DEE0319CFDA2 /* PazMoPubBannerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PazMoPubBannerViewController.xcconfig; sourceTree = "<group>"; };
+		90B80B797D81DF48518B173C3A03C124 /* PazMoPubBannerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-prefix.pch"; sourceTree = "<group>"; };
 		9108D2E53474B9A127052376C3E1BF3E /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PazMoPubBannerViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PazMoPubBannerViewController.xcconfig; sourceTree = "<group>"; };
 		A4A2DFC089E11BFC1C9498077D444040 /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PazMoPubBannerViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA5A7F1FACB1E5BC26A2866C60319C2C /* Pods-PazMoPubBannerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PazMoPubBannerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFCCE55DD32132F65334A4D5D3A0190F /* PazMoPubBannerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PazMoPubBannerViewController.modulemap; sourceTree = "<group>"; };
 		B3D6240AF8A91C05EFF14339D88E28E1 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF6D1A79E689D786A7515E2B1B0B8E07 /* PazMoPubBannerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PazMoPubBannerViewController.framework; path = PazMoPubBannerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19377AF3EB39EF71EDB9375CE1EDC03 /* Pods-PazMoPubBannerViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PazMoPubBannerViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-umbrella.h"; sourceTree = "<group>"; };
 		CAAC65211F8C8E7D89FCBD8171D05045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0788AC04E7A58100A42030299E8F59 /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5AD6C53E6B7F2D60C6163CCC5E7D6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2E5F49B7F5ADA1E3F09523BC2774C8 /* PazMoPubBannerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-umbrella.h"; sourceTree = "<group>"; };
 		CFAFA0BB74DB8F3564E46A384E9DCD55 /* Pods-PazMoPubBannerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PazMoPubBannerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PazMoPubBannerViewController-dummy.m"; sourceTree = "<group>"; };
-		F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PazMoPubBannerViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		FC65C5884F2017A5F7741E577AB253CB /* Pods_PazMoPubBannerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PazMoPubBannerViewController_Tests.framework; path = "Pods-PazMoPubBannerViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF7A73E0BB374E62EC96EB9CB610196 /* Pods-PazMoPubBannerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,7 +143,7 @@
 		8BDA5107CC569D373FBEB20D6A038B8E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE7F475841B95947E19EC2474C096EC6 /* PazMoPubBannerViewController */,
+				B16EB38A2F5E8A58B3D08218F3AB866C /* PazMoPubBannerViewController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -166,22 +166,22 @@
 			path = "Target Support Files/Pods-PazMoPubBannerViewController_Example";
 			sourceTree = "<group>";
 		};
+		B16EB38A2F5E8A58B3D08218F3AB866C /* PazMoPubBannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A6238149D19699E9AEF1C8DE2867403 /* PazMoPubBannerViewController.swift */,
+				DB67324966CBB572D53DF9AF52344D88 /* Support Files */,
+			);
+			name = PazMoPubBannerViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE7F475841B95947E19EC2474C096EC6 /* PazMoPubBannerViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */,
-				FBCF12B9E23B2D55607DE269F02DA08F /* Support Files */,
-			);
-			name = PazMoPubBannerViewController;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -192,15 +192,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FBCF12B9E23B2D55607DE269F02DA08F /* Support Files */ = {
+		DB67324966CBB572D53DF9AF52344D88 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04170AF3E808970269BD3331F8589360 /* Info.plist */,
-				5529A83FDE1A391CC9BCAFDF618E0E5B /* PazMoPubBannerViewController.modulemap */,
-				996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */,
-				D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */,
-				499B9DA5B305BD2BA5DBA6E7D006B689 /* PazMoPubBannerViewController-prefix.pch */,
-				C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */,
+				56AFAECAC4FD99D939FC56F30947BEBA /* Info.plist */,
+				AFCCE55DD32132F65334A4D5D3A0190F /* PazMoPubBannerViewController.modulemap */,
+				89035385485B64C5F6B8DEE0319CFDA2 /* PazMoPubBannerViewController.xcconfig */,
+				5C7E4F79BB0B72E7650096D468C5D9C2 /* PazMoPubBannerViewController-dummy.m */,
+				90B80B797D81DF48518B173C3A03C124 /* PazMoPubBannerViewController-prefix.pch */,
+				CF2E5F49B7F5ADA1E3F09523BC2774C8 /* PazMoPubBannerViewController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PazMoPubBannerViewController";
@@ -240,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D163634DF252DC7A314A976FC73C8C33 /* Build configuration list for PBXNativeTarget "PazMoPubBannerViewController" */;
 			buildPhases = (
-				8D1F47C47509ED701892D86E0D17F4D8 /* Sources */,
+				EEF7720C80F420628AFAD731A9871B25 /* Sources */,
 				E0DAD27C92BFF4C4EB5F1C14D961437D /* Frameworks */,
 				179BB1F2BBC50A19C442730281E976CD /* Headers */,
 			);
@@ -325,20 +325,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D1F47C47509ED701892D86E0D17F4D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A57FA75748DB7F3DECB07876BC75FA94 /* PazMoPubBannerViewController-dummy.m in Sources */,
-				DFED28A004ADDF3341DD362B69BD1DA3 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ADCA8B6ABF1258A7FEC1EC992E3B6E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				709349D949BBBAB5DE70157A39815ABD /* Pods-PazMoPubBannerViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF7720C80F420628AFAD731A9871B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF0B0579960CE5554185CEEE25E33DE /* PazMoPubBannerViewController-dummy.m in Sources */,
+				51FC8F489CD76976D7E7A571A7CFEEB8 /* PazMoPubBannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,38 +479,6 @@
 			};
 			name = Debug;
 		};
-		4DA9D88DD4EF577DF378802FD424C9E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PazMoPubBannerViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController.modulemap";
-				PRODUCT_NAME = PazMoPubBannerViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		517B4FD11C587B8879C7D88D3CD8E8DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD0788AC04E7A58100A42030299E8F59 /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */;
@@ -634,9 +602,9 @@
 			};
 			name = Release;
 		};
-		C8D5A68A8C0AD4AE1AEB1720C7B9B059 /* Debug */ = {
+		7C0FCF4C2CB3D4505A99181F7960C8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */;
+			baseConfigurationReference = 89035385485B64C5F6B8DEE0319CFDA2 /* PazMoPubBannerViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,7 +618,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PazMoPubBannerViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController.modulemap";
 				PRODUCT_NAME = PazMoPubBannerViewController;
@@ -664,6 +632,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9230EA22B12666F73F2DA2CBEB9D82C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89035385485B64C5F6B8DEE0319CFDA2 /* PazMoPubBannerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PazMoPubBannerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController.modulemap";
+				PRODUCT_NAME = PazMoPubBannerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -689,8 +689,8 @@
 		D163634DF252DC7A314A976FC73C8C33 /* Build configuration list for PBXNativeTarget "PazMoPubBannerViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8D5A68A8C0AD4AE1AEB1720C7B9B059 /* Debug */,
-				4DA9D88DD4EF577DF378802FD424C9E0 /* Release */,
+				7C0FCF4C2CB3D4505A99181F7960C8FE /* Debug */,
+				9230EA22B12666F73F2DA2CBEB9D82C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
