@@ -1,0 +1,6 @@
+framework module PazMoPubBannerViewController {
+  umbrella header "PazMoPubBannerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

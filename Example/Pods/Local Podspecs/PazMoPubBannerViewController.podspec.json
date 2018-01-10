@@ -1,0 +1,22 @@
+{
+  "name": "PazMoPubBannerViewController",
+  "version": "0.1.0",
+  "summary": "A short description of PazMoPubBannerViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hpbl/PazMoPubBannerViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hpbl": "hiltonpintor@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hpbl/PazMoPubBannerViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PazMoPubBannerViewController/Classes/**/*"
+}

@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022E3D52FC7D3AE9F69137EB2A8F0C0D /* Pods-PazMoPubBannerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAFA0BB74DB8F3564E46A384E9DCD55 /* Pods-PazMoPubBannerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9ACE7F387ABBAD42F623C12D7B441B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2B7463E06D34DA5ACB490F019372FBD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A59C2AAC194D02629A5B5C57BE03174 /* PazMoPubBannerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4C5038735E5A9D06AF397BAACFA4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		461F49BC787FACE250C66DF55029BF8E /* Pods-PazMoPubBannerViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6BAC9A63D9D2B146EBDF6E0281FF3 /* Pods-PazMoPubBannerViewController_Tests-dummy.m */; };
+		709349D949BBBAB5DE70157A39815ABD /* Pods-PazMoPubBannerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03868748BBC31D6AD75A1F667EF06D76 /* Pods-PazMoPubBannerViewController_Example-dummy.m */; };
+		A57FA75748DB7F3DECB07876BC75FA94 /* PazMoPubBannerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */; };
+		B2E1096959BD80F445557E5081D91921 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39602EED3FCF1ABC8A016B4B63EA1759 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFED28A004ADDF3341DD362B69BD1DA3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6A537B2BB19C04124079ED5B06A1A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA19F1447C7FC1320C9B86E13550591;
+			remoteInfo = PazMoPubBannerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03868748BBC31D6AD75A1F667EF06D76 /* Pods-PazMoPubBannerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PazMoPubBannerViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		04170AF3E808970269BD3331F8589360 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B8AFA6AE22A7CF92CC084E65FBEA32 /* Pods-PazMoPubBannerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PazMoPubBannerViewController_Example.modulemap"; sourceTree = "<group>"; };
+		2558E88F54E748EFE02D0635837E7320 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2CE6BAC9A63D9D2B146EBDF6E0281FF3 /* Pods-PazMoPubBannerViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PazMoPubBannerViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D2AD4AAF725CF8BF15A58CB4531383E /* Pods-PazMoPubBannerViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PazMoPubBannerViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EE4E90662E8A490ADA8D1A1D52C66F8 /* Pods-PazMoPubBannerViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		39602EED3FCF1ABC8A016B4B63EA1759 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PazMoPubBannerViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E9DDE5784B7307F21CF78FEACF00DE0 /* Pods-PazMoPubBannerViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		40E31060D11025FE94271A71B4FE2563 /* Pods-PazMoPubBannerViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		499B9DA5B305BD2BA5DBA6E7D006B689 /* PazMoPubBannerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-prefix.pch"; sourceTree = "<group>"; };
+		5529A83FDE1A391CC9BCAFDF618E0E5B /* PazMoPubBannerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PazMoPubBannerViewController.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79CB1F30BC3F51917C792278767A5E51 /* Pods_PazMoPubBannerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PazMoPubBannerViewController_Example.framework; path = "Pods-PazMoPubBannerViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B5C9A0245A099D0FF489763CC238B6 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9108D2E53474B9A127052376C3E1BF3E /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PazMoPubBannerViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PazMoPubBannerViewController.xcconfig; sourceTree = "<group>"; };
+		A4A2DFC089E11BFC1C9498077D444040 /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PazMoPubBannerViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA5A7F1FACB1E5BC26A2866C60319C2C /* Pods-PazMoPubBannerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PazMoPubBannerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3D6240AF8A91C05EFF14339D88E28E1 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6D1A79E689D786A7515E2B1B0B8E07 /* PazMoPubBannerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PazMoPubBannerViewController.framework; path = PazMoPubBannerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19377AF3EB39EF71EDB9375CE1EDC03 /* Pods-PazMoPubBannerViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PazMoPubBannerViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PazMoPubBannerViewController-umbrella.h"; sourceTree = "<group>"; };
+		CAAC65211F8C8E7D89FCBD8171D05045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0788AC04E7A58100A42030299E8F59 /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PazMoPubBannerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5AD6C53E6B7F2D60C6163CCC5E7D6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAFA0BB74DB8F3564E46A384E9DCD55 /* Pods-PazMoPubBannerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PazMoPubBannerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PazMoPubBannerViewController-dummy.m"; sourceTree = "<group>"; };
+		F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PazMoPubBannerViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FC65C5884F2017A5F7741E577AB253CB /* Pods_PazMoPubBannerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PazMoPubBannerViewController_Tests.framework; path = "Pods-PazMoPubBannerViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF7A73E0BB374E62EC96EB9CB610196 /* Pods-PazMoPubBannerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PazMoPubBannerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229FFE50BBE7DD3B0C8169F2E19C186C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7463E06D34DA5ACB490F019372FBD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D514F33A2C5823116A0F455A58E616F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C5038735E5A9D06AF397BAACFA4BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DAD27C92BFF4C4EB5F1C14D961437D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9ACE7F387ABBAD42F623C12D7B441B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128EA7687296C2F81EF6A260F60DA6F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF6D1A79E689D786A7515E2B1B0B8E07 /* PazMoPubBannerViewController.framework */,
+				79CB1F30BC3F51917C792278767A5E51 /* Pods_PazMoPubBannerViewController_Example.framework */,
+				FC65C5884F2017A5F7741E577AB253CB /* Pods_PazMoPubBannerViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C190037C596344936D655F825FEDE2 /* Pods-PazMoPubBannerViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC65211F8C8E7D89FCBD8171D05045 /* Info.plist */,
+				C19377AF3EB39EF71EDB9375CE1EDC03 /* Pods-PazMoPubBannerViewController_Tests.modulemap */,
+				9108D2E53474B9A127052376C3E1BF3E /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.markdown */,
+				A4A2DFC089E11BFC1C9498077D444040 /* Pods-PazMoPubBannerViewController_Tests-acknowledgements.plist */,
+				2CE6BAC9A63D9D2B146EBDF6E0281FF3 /* Pods-PazMoPubBannerViewController_Tests-dummy.m */,
+				40E31060D11025FE94271A71B4FE2563 /* Pods-PazMoPubBannerViewController_Tests-frameworks.sh */,
+				3E9DDE5784B7307F21CF78FEACF00DE0 /* Pods-PazMoPubBannerViewController_Tests-resources.sh */,
+				39602EED3FCF1ABC8A016B4B63EA1759 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h */,
+				B3D6240AF8A91C05EFF14339D88E28E1 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */,
+				2558E88F54E748EFE02D0635837E7320 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-PazMoPubBannerViewController_Tests";
+			path = "Target Support Files/Pods-PazMoPubBannerViewController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8BDA5107CC569D373FBEB20D6A038B8E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				128EA7687296C2F81EF6A260F60DA6F3 /* Products */,
+				84219F47972FB1C0C7C1546AA684AE59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84219F47972FB1C0C7C1546AA684AE59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EA4F2088F442E6B698020B0C5D5B05 /* Pods-PazMoPubBannerViewController_Example */,
+				44C190037C596344936D655F825FEDE2 /* Pods-PazMoPubBannerViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BDA5107CC569D373FBEB20D6A038B8E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F475841B95947E19EC2474C096EC6 /* PazMoPubBannerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3EA4F2088F442E6B698020B0C5D5B05 /* Pods-PazMoPubBannerViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD5AD6C53E6B7F2D60C6163CCC5E7D6C /* Info.plist */,
+				04B8AFA6AE22A7CF92CC084E65FBEA32 /* Pods-PazMoPubBannerViewController_Example.modulemap */,
+				2D2AD4AAF725CF8BF15A58CB4531383E /* Pods-PazMoPubBannerViewController_Example-acknowledgements.markdown */,
+				AA5A7F1FACB1E5BC26A2866C60319C2C /* Pods-PazMoPubBannerViewController_Example-acknowledgements.plist */,
+				03868748BBC31D6AD75A1F667EF06D76 /* Pods-PazMoPubBannerViewController_Example-dummy.m */,
+				FCF7A73E0BB374E62EC96EB9CB610196 /* Pods-PazMoPubBannerViewController_Example-frameworks.sh */,
+				2EE4E90662E8A490ADA8D1A1D52C66F8 /* Pods-PazMoPubBannerViewController_Example-resources.sh */,
+				CFAFA0BB74DB8F3564E46A384E9DCD55 /* Pods-PazMoPubBannerViewController_Example-umbrella.h */,
+				CD0788AC04E7A58100A42030299E8F59 /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */,
+				82B5C9A0245A099D0FF489763CC238B6 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-PazMoPubBannerViewController_Example";
+			path = "Target Support Files/Pods-PazMoPubBannerViewController_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7F475841B95947E19EC2474C096EC6 /* PazMoPubBannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F06C0CB11FF88077265191F2DEA9EFA0 /* ReplaceMe.swift */,
+				FBCF12B9E23B2D55607DE269F02DA08F /* Support Files */,
+			);
+			name = PazMoPubBannerViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBCF12B9E23B2D55607DE269F02DA08F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04170AF3E808970269BD3331F8589360 /* Info.plist */,
+				5529A83FDE1A391CC9BCAFDF618E0E5B /* PazMoPubBannerViewController.modulemap */,
+				996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */,
+				D0D88743F461FABFF44821DBFA7450A1 /* PazMoPubBannerViewController-dummy.m */,
+				499B9DA5B305BD2BA5DBA6E7D006B689 /* PazMoPubBannerViewController-prefix.pch */,
+				C938ECF9B195DBDE5A7F1435E31E329F /* PazMoPubBannerViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PazMoPubBannerViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		179BB1F2BBC50A19C442730281E976CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A59C2AAC194D02629A5B5C57BE03174 /* PazMoPubBannerViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77AC5D0C3A88F9ED187B7AB6B1B932A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022E3D52FC7D3AE9F69137EB2A8F0C0D /* Pods-PazMoPubBannerViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FE30F624096B7719D651D3FAAE2FB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E1096959BD80F445557E5081D91921 /* Pods-PazMoPubBannerViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AA19F1447C7FC1320C9B86E13550591 /* PazMoPubBannerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D163634DF252DC7A314A976FC73C8C33 /* Build configuration list for PBXNativeTarget "PazMoPubBannerViewController" */;
+			buildPhases = (
+				8D1F47C47509ED701892D86E0D17F4D8 /* Sources */,
+				E0DAD27C92BFF4C4EB5F1C14D961437D /* Frameworks */,
+				179BB1F2BBC50A19C442730281E976CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PazMoPubBannerViewController;
+			productName = PazMoPubBannerViewController;
+			productReference = BF6D1A79E689D786A7515E2B1B0B8E07 /* PazMoPubBannerViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B3F8A1B8CB73721A91B36E3273A2C04 /* Pods-PazMoPubBannerViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B569DEA65E59E13DC1D6D415BAE65C8 /* Build configuration list for PBXNativeTarget "Pods-PazMoPubBannerViewController_Tests" */;
+			buildPhases = (
+				0106DE0C51BCD694DB51C9BFB6858F09 /* Sources */,
+				229FFE50BBE7DD3B0C8169F2E19C186C /* Frameworks */,
+				A3FE30F624096B7719D651D3FAAE2FB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PazMoPubBannerViewController_Tests";
+			productName = "Pods-PazMoPubBannerViewController_Tests";
+			productReference = FC65C5884F2017A5F7741E577AB253CB /* Pods_PazMoPubBannerViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB52833F7F77BF5403C42D96DD4A9AA9 /* Pods-PazMoPubBannerViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D754E5D2DD5604820BDC177724BC7B51 /* Build configuration list for PBXNativeTarget "Pods-PazMoPubBannerViewController_Example" */;
+			buildPhases = (
+				ADCA8B6ABF1258A7FEC1EC992E3B6E0C /* Sources */,
+				5D514F33A2C5823116A0F455A58E616F /* Frameworks */,
+				77AC5D0C3A88F9ED187B7AB6B1B932A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6629E653A0206EC6819FEFBB14403EC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PazMoPubBannerViewController_Example";
+			productName = "Pods-PazMoPubBannerViewController_Example";
+			productReference = 79CB1F30BC3F51917C792278767A5E51 /* Pods_PazMoPubBannerViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 128EA7687296C2F81EF6A260F60DA6F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA19F1447C7FC1320C9B86E13550591 /* PazMoPubBannerViewController */,
+				EB52833F7F77BF5403C42D96DD4A9AA9 /* Pods-PazMoPubBannerViewController_Example */,
+				9B3F8A1B8CB73721A91B36E3273A2C04 /* Pods-PazMoPubBannerViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0106DE0C51BCD694DB51C9BFB6858F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461F49BC787FACE250C66DF55029BF8E /* Pods-PazMoPubBannerViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1F47C47509ED701892D86E0D17F4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57FA75748DB7F3DECB07876BC75FA94 /* PazMoPubBannerViewController-dummy.m in Sources */,
+				DFED28A004ADDF3341DD362B69BD1DA3 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCA8B6ABF1258A7FEC1EC992E3B6E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709349D949BBBAB5DE70157A39815ABD /* Pods-PazMoPubBannerViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6629E653A0206EC6819FEFBB14403EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PazMoPubBannerViewController;
+			target = 0AA19F1447C7FC1320C9B86E13550591 /* PazMoPubBannerViewController */;
+			targetProxy = D6A537B2BB19C04124079ED5B06A1A13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B92531C12C07CFFC71E7A64E23DA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D6240AF8A91C05EFF14339D88E28E1 /* Pods-PazMoPubBannerViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Tests/Pods-PazMoPubBannerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PazMoPubBannerViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10403DF81A358FD69C286646DDFD8ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2558E88F54E748EFE02D0635837E7320 /* Pods-PazMoPubBannerViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Tests/Pods-PazMoPubBannerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PazMoPubBannerViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4DA9D88DD4EF577DF378802FD424C9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PazMoPubBannerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController.modulemap";
+				PRODUCT_NAME = PazMoPubBannerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		517B4FD11C587B8879C7D88D3CD8E8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0788AC04E7A58100A42030299E8F59 /* Pods-PazMoPubBannerViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Example/Pods-PazMoPubBannerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PazMoPubBannerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69863FD56BF07C8CD140CF3243D60D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B5C9A0245A099D0FF489763CC238B6 /* Pods-PazMoPubBannerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PazMoPubBannerViewController_Example/Pods-PazMoPubBannerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PazMoPubBannerViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8D5A68A8C0AD4AE1AEB1720C7B9B059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996BF3E27E86476E174CB0C239E92118 /* PazMoPubBannerViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PazMoPubBannerViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PazMoPubBannerViewController/PazMoPubBannerViewController.modulemap";
+				PRODUCT_NAME = PazMoPubBannerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B569DEA65E59E13DC1D6D415BAE65C8 /* Build configuration list for PBXNativeTarget "Pods-PazMoPubBannerViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B92531C12C07CFFC71E7A64E23DA90 /* Debug */,
+				10403DF81A358FD69C286646DDFD8ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D163634DF252DC7A314A976FC73C8C33 /* Build configuration list for PBXNativeTarget "PazMoPubBannerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D5A68A8C0AD4AE1AEB1720C7B9B059 /* Debug */,
+				4DA9D88DD4EF577DF378802FD424C9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D754E5D2DD5604820BDC177724BC7B51 /* Build configuration list for PBXNativeTarget "Pods-PazMoPubBannerViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517B4FD11C587B8879C7D88D3CD8E8DE /* Debug */,
+				69863FD56BF07C8CD140CF3243D60D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
