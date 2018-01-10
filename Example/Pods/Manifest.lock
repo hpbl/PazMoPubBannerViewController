@@ -1,5 +1,17 @@
 PODS:
-  - PazMoPubBannerViewController (0.1.0)
+  - mopub-ios-sdk (4.19.0):
+    - mopub-ios-sdk/MoPubSDK (= 4.19.0)
+  - mopub-ios-sdk/Avid (4.19.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/Core (4.19.0)
+  - mopub-ios-sdk/Moat (4.19.0):
+    - mopub-ios-sdk/Core
+  - mopub-ios-sdk/MoPubSDK (4.19.0):
+    - mopub-ios-sdk/Avid
+    - mopub-ios-sdk/Core
+    - mopub-ios-sdk/Moat
+  - PazMoPubBannerViewController (0.1.0):
+    - mopub-ios-sdk (~> 4.19.0)
 
 DEPENDENCIES:
   - PazMoPubBannerViewController (from `../`)
@@ -9,7 +21,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PazMoPubBannerViewController: 179d42cd82a3d9f441b98eb62e26ba5ee59cc42c
+  mopub-ios-sdk: ffbe414adf2fb7717d999020a3ff51d908da599f
+  PazMoPubBannerViewController: 4f633237fb73c64c15ecc93d7e4ce97a6107c980
 
 PODFILE CHECKSUM: f6bb960fec951b28de797e9cce4ba0318cea3644
 

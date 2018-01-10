@@ -9,13 +9,14 @@
 import UIKit
 import PazMoPubBannerViewController
 
-class ViewController: PazMoPubBannerViewController {
-
+class ViewController: UIViewController {
+    @IBOutlet weak var profitLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print(UpdateNotification.BannerViewActionWillPresent.name)
+        self.profitLabel.text = "Profit 🤑"
     }
 
     override func didReceiveMemoryWarning() {

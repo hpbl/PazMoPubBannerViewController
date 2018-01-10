@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PazMoPubBannerViewController/Classes/**/*"
+  "source_files": "PazMoPubBannerViewController/Classes/**/*",
+  "dependencies": {
+    "mopub-ios-sdk": [
+      "~> 4.19.0"
+    ]
+  }
 }

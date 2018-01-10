@@ -7,15 +7,55 @@
 //
 
 import UIKit
+import PazMoPubBannerViewController
+import MoPub
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // Initialize a PazMoPubBannerViewController
+    lazy var bannerVC: PazMoPubBannerViewController = {
+        
+        let storyBoard = UIStoryboard(
+            name: "Main",
+            bundle: nil
+        )
+        
+        let contentVC = storyBoard.instantiateViewController(
+            withIdentifier: "ContentVC"
+        )
+        
+        var bannerVC = PazMoPubBannerViewController(
+            contentViewController: contentVC,
+            adUnitId: "" // There is a bug. If we set adUnitId here it will not load ads
+        )
+        
+        bannerVC.active = true
+        
+        return bannerVC
+    }()
+    
+    func loadStoryboard() {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window!.rootViewController = self.bannerVC
+        self.window!.makeKeyAndVisible()
+        
+        self.bannerVC.set(
+            adUnitId: "", //TODO: Add your key here
+            active: true,
+            logLevel: MPLogLevelAll) // Once we run some tests set log level to off
+    }
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.bannerVC.disableLogging()
+        self.loadStoryboard()
+
+        
         return true
     }
 
