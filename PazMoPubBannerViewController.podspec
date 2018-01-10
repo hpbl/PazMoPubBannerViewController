@@ -38,5 +38,5 @@ Implementation to add banner advert on any application. It provides a master vie
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'mopub-ios-sdk', '~> 4.19.0'
 end
